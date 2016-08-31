@@ -10,8 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'AFOAuth2Client'
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', :git => 'git@github.com:rafaelks/AFNetworking.git', :branch => '1_3_2_share_extension_support'
-
   s.ios.frameworks = 'Security'
 
   s.prefix_header_contents = <<-EOS
